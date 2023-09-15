@@ -1,16 +1,21 @@
-# This is a sample Python script.
+def initialize_resources():
+    #fetches most recent shipinfo
+    print("foo")
 
-# Press Umschalt+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def loadshipinfo():
+    #loads all shipinfo into one array
+    print("foo")
+
+def createcards():
+    #foreach shipinfo create card (cardcompositor)
+    print("foo")
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Strg+F8 to toggle the breakpoint.
+def main():
+    initialize_resources
+    loadshipinfo
+    createcards
+    print("foo")
 
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    main()
